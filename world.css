@@ -1,1 +1,92 @@
-/* Add your own styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #78B9BA;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  display: inline;
+  margin-left: 10px;
+}
+
+main {
+  width: 80%;
+  margin-left: 265px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+#logo img {
+  width: 120px; 
+  mix-blend-mode: multiply;
+}
+
+#controls {
+  background-color: transparent;
+  padding: 20px;
+  margin: 20px;
+}
+
+#controls button{
+  background-color: #4070F4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#controls input{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#controls label{
+  display: block;
+  margin: 10px 0 5px;
+}
+
+#controls button:hover{
+  background-color: #1032d8;
+}
+
+#result{
+  margin: 20px;
+  width: 65%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#result th,
+#result td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#result th{
+  background-color: #ddd;
+  color: black;
+}
+
+#result td{
+    background-color: white;
+    color: black;
+}
